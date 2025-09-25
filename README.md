@@ -1,16 +1,13 @@
-# React + Vite
+# Mood Melody Player 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Mood Melody Player** is a smart music application that detects your mood using facial expressions and plays songs accordingly.  
+This repository contains the **Frontend** part of the project.
 
-Currently, two official plugins are available:
+🔗 **Frontend Repository**: [Mood-Melody-Player-frontend](https://github.com/JatinRajoria/Mood-Melody-Player-frontend)  
+🔗 **Backend Repository**: [Mood-Melody-Player-backend](https://github.com/JatinRajoria/Mood-Melody-Player-backend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 🚀 Features
+- REST APIs for mood-based music suggestions
+- Handles mood → playlist mapping
+- Communicates with frontend
