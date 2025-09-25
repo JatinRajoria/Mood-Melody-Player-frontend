@@ -1,8 +1,12 @@
 import FacialExpressions from "./components/FacialExpressions"
+import MoodSongs from "./components/MoodSongs"
+import { useState } from "react"
 const App = () => {
+   const [Songs, setSongs] = useState([])
   return (
     <div>
-      <FacialExpressions />
+      <FacialExpressions setSongs={setSongs} />
+       <MoodSongs Songs={Songs} />
     </div>
   )
 }
